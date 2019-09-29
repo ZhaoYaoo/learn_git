@@ -1,11 +1,5 @@
 hello github
-<<<<<<< Updated upstream
-9/30/1:26  remote change
-=======
-
-change in local  9/30/1:30
->>>>>>> Stashed changes
-
+9/30 2:27
 
 1.冲突原因
 远程文件已经commit，本地再次改变该文件并commit，本地与远程的提交节点相同，产生冲突。
@@ -16,3 +10,5 @@ change in local  9/30/1:30
 》》git stash pop 回复工作区的内容，此时冲文件中包含有远程修改的内容和本地修改的内容，根据情况修改后方可
 》》git push origin HEAD
 
+=======
+>>>>>>> 4f56285e3d557d8a8819bd7a0a1b380680a30c7a
